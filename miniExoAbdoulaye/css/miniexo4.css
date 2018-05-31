@@ -1,0 +1,84 @@
+    body {
+      background: lightgray;
+    }
+    
+    header {
+      background: rgb(11, 151, 121);
+    }
+    
+    section {
+      background: white;
+      width: 100%;
+      padding: 1em;
+      overflow: auto;
+      min-width: 30em;
+      max-width: 80em;
+      margin: auto;
+    }
+    
+    h1 {
+      color: #fff;
+      font-size: 3em;
+      margin-bottom: 0.5em;
+      font-family: sans-serif;
+    }
+    
+    nav ul li {
+      display: inline;
+      font-family: fantasy;
+      font-weight: 900;
+      padding-left: 10px;
+      border-left: 3px solid #555;
+    }
+    
+    aside {
+      width: 30%;
+      color: #fff;
+      display: inline-block;
+      background: rgb(18, 8, 107);
+    }
+    
+    code {
+      font-family: monospace;
+      font-size: 0.85em;
+      background: hsla(0, 0, 100, 0.7);
+      border: hsla(0, 0, 0, 0.3) solid 1px;
+      padding: 0.1em;
+      vertical-align: baseline;
+    }
+    
+    div {
+      /* These styles are for aesthetics only. */
+      font-size: 18px;
+      line-height: 1.3em;
+      vertical-align: top;
+      margin-bottom: 1em;
+      border-radius: 0.5em;
+      /* This insures everything up to the border is included in the width */
+      padding: 1em;
+      /* The default width of my divs */
+      box-sizing: border-box;
+      width: 35%;
+    }
+    /* Inline-block aligned elements */
+    
+    .inline-block {
+      /* These are aesthetic styles. Red = bad */
+      background: salmon;
+      border: solid red 1px;
+      /* Overrides default display (which would be block) */
+      display: inline-block;
+    }
+    /* Float aligned elements */
+    
+    .float {
+      background: lightgreen;
+      border: solid green 1px;
+      /* Floated for positioning */
+      float: left;
+    }
+    /* These elements are intended to be half the width of their parents */
+    
+    .half {
+      width: 50%;
+    }

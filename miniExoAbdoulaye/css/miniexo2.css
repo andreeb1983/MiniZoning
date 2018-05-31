@@ -1,0 +1,103 @@
+/* Général */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  color: #fff;
+}
+
+#container {
+  width: 100em;
+  margin: 0 auto;
+}
+
+.header {
+  height: 10em;
+  background-size: contain;
+  background: url(../img/congratulations-banner.png) no-repeat center;
+}
+
+.nav {
+  height: 5em;
+  background: rgb(236, 147, 46);
+}
+
+.aside_1 {
+  display: inline-block;
+  width: 30em;
+  height: 41em;
+  background: rgb(42, 58, 92);
+}
+
+.main {
+  width: 70%;
+  height: auto;
+}
+
+.section {
+  /* width: 70em;
+  height: auto;
+  margin-bottom: 1em; */
+  display: block;
+  background: rgb(137, 219, 99);
+}
+
+.texte {
+  color: #fff;
+  padding: 1em;
+  text-justify: auto;
+}
+
+.article_1 {
+  width: 35em;
+  height: auto;
+  display: inline-block;
+  background: url(../img/africa.jpg);
+}
+
+.aside_2 {
+  width: 35em;
+  height: auto;
+  display: inline-block;
+  background: rgb(113, 29, 192);
+}
+
+
+/* .section_2 { */
+
+
+/* width: 70em;
+  height: auto;
+  display: inline-block; */
+
+
+/* background: rgb(137, 219, 99); */
+
+
+/* } */
+
+.article_2 {
+  width: 35em;
+  height: auto;
+  display: inline-block;
+  background: rgb(82, 243, 230);
+}
+
+.aside_3 {
+  width: 35em;
+  height: auto;
+  display: inline-block;
+  background: rgb(113, 29, 192);
+}
+
+.footer {
+  height: 8em;
+  background: #b43072;
+}

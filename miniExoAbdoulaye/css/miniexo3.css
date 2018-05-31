@@ -1,0 +1,34 @@
+body {
+  background: olive;
+}
+
+div {
+  background: pink;
+  margin-bottom: 10px;
+}
+
+p {
+  background: white;
+  color: red;
+}
+
+.displaynone {
+  display: none;
+}
+
+.displayinline {
+  display: inline;
+  /* height: 50px;
+       width: 480px; */
+}
+
+.displayblock {
+  display: block;
+}
+
+.displayinlineblock {
+  display: inline-block;
+  /* background: white;
+       height: 50px;
+       width: 480px; */
+}

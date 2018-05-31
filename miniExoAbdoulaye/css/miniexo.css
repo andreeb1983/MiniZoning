@@ -1,0 +1,80 @@
+/* Général */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+}
+
+#container {
+  width: 100em;
+  margin: 0 auto;
+}
+
+.header {
+  height: 10em;
+  background: rgb(9, 92, 23);
+}
+
+.nav {
+  height: 5em;
+  background: rgb(236, 147, 46);
+}
+
+.aside_1 {
+  float: left;
+  width: 30em;
+  height: 41em;
+  background: rgb(42, 58, 92);
+}
+
+.section_1 {
+  width: 70em;
+  height: auto;
+  margin-bottom: 1em;
+  display: inline-block;
+  background: rgb(137, 219, 99);
+}
+
+.article_1 {
+  width: 35em;
+  height: 16em;
+  float: left;
+  background: rgb(82, 243, 230);
+}
+
+.aside_2 {
+  width: 35em;
+  height: 16em;
+  display: inline-block;
+  background: rgb(113, 29, 192);
+}
+
+.section_2 {
+  width: 70em;
+  height: auto;
+  display: inline-block;
+  background: rgb(137, 219, 99);
+}
+
+.article_2 {
+  width: 35em;
+  height: 16em;
+  float: left;
+  background: rgb(82, 243, 230);
+}
+
+.aside_3 {
+  width: 35em;
+  height: 16em;
+  display: inline-block;
+  background: rgb(113, 29, 192);
+}
+
+.footer {
+  height: 8em;
+  background: #b43072;
+}

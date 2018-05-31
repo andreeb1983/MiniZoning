@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Display</title>
+  <link rel="stylesheet" href="css/miniexo4.css">
+</head>
+
+<body>
+  <section>
+    <header>
+      <h1>Positionnement d'élément avec display !</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li>Lien</li>
+        <li>Lien</li>
+        <li>Lien</li>
+        <li>Lien</li>
+      </ul>
+    </nav>
+
+    <aside>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat fugit quas ducimus error nisi explicabo corrupti vel laborum. Modi aliquid assumenda fuga veniam nam debitis eius praesentium placeat quibusdam impedit! Possimus perspiciatis quaerat eligendi
+      temporibus neque perferendis quas distinctio, non at, minus sapiente deserunt repudiandae exercitationem reiciendis reprehenderit vero quis consequatur sed molestias porro nam cupiditate explicabo. Odio, dolor ducimus. Id, ab? Porro, nesciunt expedita
+      quis eveniet excepturi molestias eaque commodi blanditiis sunt deserunt tempore ex mollitia beatae repellendus inventore sapiente iusto facere fuga assumenda ratione modi obcaecati voluptates voluptatibus. Dicta recusandae explicabo facere laboriosam
+      officia dolorem inventore omnis exercitationem nostrum. Optio nostrum ipsa aperiam natus possimus. Ullam, unde qui illo nesciunt quo totam obcaecati. Hic rerum est incidunt illum? Ad quaerat eum ducimus? Unde eveniet laboriosam aliquid. Temporibus
+      delectus expedita autem ducimus ad dolorum nobis, aliquam, eveniet doloribus quisquam ipsum dolorem obcaecati fugit magnam omnis explicabo laudantium doloremque recusandae! Voluptatum eligendi, corporis delectus, aliquid quis illum dignissimos dolor
+      unde nemo magni doloremque quidem necessitatibus nihil tenetur praesentium labore minima repudiandae quas fugiat recusandae ut molestiae officia enim? Eligendi, illo.
+    </aside>
+
+    <div class="inline-block">
+      Ces deux divs sont placés l'une à côté de l'autre en utilisant: <pre>display: inline-block;</pre>
+    </div>
+
+    <div class="inline-block">
+      Notez l'espace entre eux. Cela se produit à cause de mon retour chariot dans le pre HTML que j'ai utilisé pour garder le pre organisé. J'ai utilisé une réinitialisation pour m'assurer qu'aucun élément ne devrait avoir des marges ou un remplissage par
+      défaut. (J'ai ajouté une marge inférieure pour le faire, plus facile à lire.) Cet espace est en fait un espace rendu comme il le serait entre deux éléments en ligne.
+    </div>
+    <br />
+
+    <div class="float">
+      Ces deux divs sont placés l'une à côté de l'autre en utilisant: <pre>float: left;</pre>
+    </div>
+    <div class="float">
+      Vous pouvez voir que, même si les éléments sont espacés dans le code, l'espace n'est pas réellement rendu sur la page. Cela peut ne pas être une affaire énorme dans ces premiers exemples, mais ...
+    </div>
+    <br />
+
+    <div class="inline-block half">
+      Que faire si je veux que mes éléments côte à côte occupent toute la largeur de l'élément parent? Je peux définir la largeur de chacun à 50%, non?
+    </div>
+    <div class="inline-block half">
+      Faux! Parce que, ensemble, les deux éléments de bloc en ligne vont ajouter jusqu'à 100% de la largeur disponinline-blockle, mais cela ne tient pas compte de l'espace entre.
+    </div>
+    <br />
+
+    <div class="float half">
+      Si je fais la même chose avec des éléments flottants ...
+    </div>
+    <div class="float half">
+      Les deux éléments sont côte à côte comme je l'ai voulu et remplissent toute la largeur du parent (qui, dans ce cas, est la même que la largeur de la fenêtre.
+    </div>
+  </section>
+
+</body>
+
+</html>
